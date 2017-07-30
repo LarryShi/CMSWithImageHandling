@@ -37,13 +37,6 @@ CREATE TABLE IF NOT EXISTS `mytable` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 转存表中的数据 `mytable`
---
-
-INSERT INTO `mytable` (`id`, `name`, `content`, `like`, `link`, `image_uid`) VALUES
--- --------------------------------------------------------
-
---
 -- 表的结构 `sys_image`
 --
 
@@ -56,11 +49,6 @@ CREATE TABLE IF NOT EXISTS `sys_image` (
   PRIMARY KEY (`image_uid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2269 ;
 
---
--- 转存表中的数据 `sys_image`
---
-
-INSERT INTO `sys_image` (`image_uid`, `image_name`, `image_desc`, `image_location`, `imagetype_uid`) VALUES
 
 -- --------------------------------------------------------
 
