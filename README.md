@@ -8,9 +8,11 @@ A PHP based Content Management System with Image Handling
 Codeigniter2 & PHP & MySQL & XAMPP  
 ```
 CodeIgniter will be updated to 3.0 later
-
+###
 XAMPP is the php server and MySql
+###
 XAMPP: https://www.apachefriends.org/zh_cn/index.html
+###
 CodeIgniter: https://codeigniter.com/
 
 ### Manual for CMS Seed
